@@ -1,0 +1,29 @@
+{
+    "name": "alphalabs/filter-engine",
+    "description": "Filter engine which could be used to alter Doctrine queries based on filter expression",
+    "keywords": ["filter", "doctrine", "expression"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvain Mauduit",
+            "email": "swop@swop.io"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "symfony/http-foundation": "~2.4",
+        "swop/filter-expression-parser": "1.0.*@dev"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "AlphaLabs\\FilterEngine\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
